@@ -1287,7 +1287,7 @@ const Resume = () => {
                 <Mail size={18} />
               </a>
               <a
-                href="https://www.linkedin.com/in/ammarwaseem"
+                href="https://www.linkedin.com/in/ammar-waseem"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -1295,7 +1295,7 @@ const Resume = () => {
                 <Linkedin size={18} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/waseemam"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

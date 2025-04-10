@@ -44,8 +44,7 @@ import { Button } from "@/components/ui/button";
 
 // Matrix digital rain background
 const MatrixBackground = () => {
-  const characters =
-    "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜｦﾝ亜愛夢神零光闇電幻彗龍☆★◇◆●◎△▽∵∴※〒Σ∞≡≪≫ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  const characters = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲ";
 
   const columns = Array.from({ length: 40 }, (_, i) => i);
 

@@ -202,6 +202,8 @@ const LoadingScreen = ({ onProgress }: LoadingScreenProps) => {
                 "> Process completed successfully",
               ]);
               setProgressValue(100);
+              setDisplayText(""); // Add this line to clear displayText
+              return;
             }
           }, 1); // was 125ms, now faster
         }

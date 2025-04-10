@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ModeToggle } from "@/components/theme-provider";
 import {
   AlertCircle,
   Calendar,
@@ -540,6 +541,19 @@ const Resume = () => {
                   </TooltipTrigger>
                   <TooltipContent>
                     <p>Milton, Ontario, Canada</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger
+                    asChild
+                    className="w-10 h-10 flex items-center justify-center rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors"
+                  >
+                    <ModeToggle />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Toggle Theme</p>
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>

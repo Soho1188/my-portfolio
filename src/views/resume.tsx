@@ -507,7 +507,7 @@ const Resume = () => {
                     </a>
                   </TooltipTrigger>
                   <TooltipContent>
-                    <p>linkedin.com/in/ammarwaseem</p>
+                    <p>linkedin.com/in/ammar-waseem</p>
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>
@@ -516,7 +516,7 @@ const Resume = () => {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Waseemam"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 flex items-center justify-center rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -588,13 +588,7 @@ const Resume = () => {
             </TabsList>
 
             <AnimatePresence mode="wait">
-              <motion.div
-                key={activeTab}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.3 }}
-              >
+              <div>
                 <TabsContent value="about">
                   <motion.div
                     variants={containerVariants}
@@ -1273,7 +1267,7 @@ const Resume = () => {
                     </div>
                   </motion.div>
                 </TabsContent>
-              </motion.div>
+              </div>
             </AnimatePresence>
           </Tabs>
         </main>

@@ -520,7 +520,7 @@ const Resume = () => {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a
-                      href="https://www.linkedin.com/soheila-kamali"
+                      href="https://www.linkedin.com/in/soheila-kamali"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 flex items-center justify-center rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-colors"

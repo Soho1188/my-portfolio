@@ -1430,7 +1430,7 @@ const Resume = () => {
                 <Linkedin size={18} />
               </a>
               <a
-                href="https://github.com/waseemam"
+                href="https://github.com/soho1188"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
